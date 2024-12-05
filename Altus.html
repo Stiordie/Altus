@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altus</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            background-color: #fff;
+            color: #fff;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 2px solid #333;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2rem;
+            margin: 0 15px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            color: #f5a623;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background-color: #222;
+        }
+
+        .hero h1 {
+            font-size: 6rem;
+            font-weight: bold;
+            letter-spacing: -2px;
+        }
+
+        .hero h1 span {
+            font-style: italic;
+            font-size: 4.5rem;
+            display: block;
+        }
+
+        .section {
+            padding: 50px 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        footer a {
+            color: #f5a623;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Altus<span style="font-style: italic;">Fashion</span></div>
+        <nav>
+            <a href="#fashion">Fashion</a>
+            <a href="#photo">Photo</a>
+            <a href="#video">Video</a>
+            <a href="#print">Print</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>
+            Altus
+            <span>Typography</span>
+        </h1>
+        <p>The Future of the Fashion World.</p>
+    </section>
+
+    <section id="fashion" class="section">
+        <h2 style="font-size: 2.5rem; letter-spacing: -1px;">Fashion</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/400x600" alt="Fashion 1">
+            <img src="https://via.placeholder.com/400x600" alt="Fashion 2">
+            <img src="https://via.placeholder.com/400x600" alt="Fashion 3">
+        </div>
+    </section>
+
+    <section id="photo" class="section">
+        <h2 style="font-size: 2.5rem; letter-spacing: -1px;">Photo</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/600x400" alt="Photo 1">
+            <img src="https://via.placeholder.com/600x400" alt="Photo 2">
+            <img src="https://via.placeholder.com/600x400" alt="Photo 3">
+        </div>
+    </section>
+
+    <section id="video" class="section">
+        <h2 style="font-size: 2.5rem; letter-spacing: -1px;">Video</h2>
+        <p style="text-align: center;">Coming Soon: A visual experience like no other.</p>
+    </section>
+
+    <section id="print" class="section">
+        <h2 style="font-size: 2.5rem; letter-spacing: -1px;">Print</h2>
+        <p style="text-align: center;">Explore the beauty of print media in fashion and photography.</p>
+    </section>
+
+    <footer>
+        <p>© 2024 Fashion Photography | Designed by <a href="#">Altus Designs</a></p>
+    </footer>
+</body>
+</html>
