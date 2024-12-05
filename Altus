@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fashion Photography</title>
+    <title>Altus</title>
     <style>
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -93,7 +93,7 @@
 </head>
 <body>
     <header>
-        <div class="logo">Fashion<span style="font-style: italic;">Photo</span></div>
+        <div class="logo">Fashion<span style="font-style: italic;">Photography</span></div>
         <nav>
             <a href="#fashion">Fashion</a>
             <a href="#photo">Photo</a>
