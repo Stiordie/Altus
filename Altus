@@ -8,7 +8,7 @@
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
             margin: 0;
-            background-color: #111;
+            background-color: #fff;
             color: #fff;
         }
 
@@ -93,7 +93,7 @@
 </head>
 <body>
     <header>
-        <div class="logo">Fashion<span style="font-style: italic;">Photography</span></div>
+        <div class="logo">Altus<span style="font-style: italic;">Fashion</span></div>
         <nav>
             <a href="#fashion">Fashion</a>
             <a href="#photo">Photo</a>
@@ -104,10 +104,10 @@
 
     <section class="hero">
         <h1>
-            Fashion Photography
+            Altus
             <span>Typography</span>
         </h1>
-        <p>Explore the artistry of visuals and typography.</p>
+        <p>The Future of the Fashion World.</p>
     </section>
 
     <section id="fashion" class="section">
